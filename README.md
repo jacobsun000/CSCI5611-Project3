@@ -26,3 +26,20 @@ Author: Jacob Sun
   - [x] (20) Single Agent Navigation
   - [ ] (10) Flocking
   - [ ] (10) Anticipatory Collision Avoidance
+
+## How To Run
+
+Dependencies:
+- FLTK(Required for GUI)
+- OpenMP(Optional)
+
+Build:
+```sh
+cmake -B build
+cmake --build build
+```
+
+Run:
+```sh
+./build/bin/pa3
+```
